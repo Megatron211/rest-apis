@@ -7,6 +7,7 @@ from resources.user import blp as UserBlueprint
 from flask_jwt_extended import JWTManager
 from flask_migrate import Migrate
 from secrets import SystemRandom
+
 # import models
 import os
 from db import db
